@@ -1,139 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhadanow – India’s Most Trusted Trucking App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #000428, #004e92);
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+    }
+    header p.tagline {
+      font-size: 1.3rem;
+      color: #feca57;
+      margin-top: 10px;
+    }
+    .download-buttons {
+      margin-top: 20px;
+    }
+    .download-buttons a {
+      margin: 0 10px;
+      padding: 10px 20px;
+      background: #feca57;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+    .countdown {
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 20px;
+      background: #002b5e;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      padding: 50px 30px;
+    }
+    .feature {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+    }
+    .feature h3 { font-size: 1.1rem; font-weight: 600; }
+    .founder-section, .testimonial-section, .faq-section, .roadmap, .contact {
+      padding: 60px 30px;
+      text-align: center;
+      background: #fff;
+      color: #000;
+    }
+    .founder-section h2, .testimonial-section h2, .faq-section h2, .roadmap h2, .contact h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .stat {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .faq-item { margin-bottom: 15px; text-align: left; max-width: 700px; margin-inline: auto; }
+    .faq-item h4 { font-weight: 600; }
+    .contact form input, .contact form textarea {
+      width: 100%; max-width: 500px;
+      padding: 10px; margin: 10px auto;
+      display: block;
+    }
+    .social-links a { margin: 0 10px; color: #000; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Bhadanow Logo">
+    <h1>India’s Most Trusted Trucking App – Coming Soon</h1>
+    <p class="tagline">Safar sirf manzil ka nahi, izzat aur suraksha ka bhi hai.</p>
+    <div class="download-buttons">
+      <a href="#">Download on Play Store</a>
+      <a href="#">Download on iOS</a>
+    </div>
+  </header>  <div class="countdown" id="countdown"></div>  <section class="features">
+    <div class="feature"><h3>Load Matching</h3><p>Connects trucks with verified loads instantly.</p></div>
+    <div class="feature"><h3>AI Suggestions</h3><p>Smart load suggestions based on your preferences.</p></div>
+    <div class="feature"><h3>Live Safety Tools</h3><p>Support & tracking for secure travel.</p></div>
+    <div class="feature"><h3>Bhai Baat</h3><p>Chat feature for drivers to help each other.</p></div>
+    <div class="feature"><h3>Wallet</h3><p>Quick payments to your wallet.</p></div>
+  </section>  <section class="founder-section">
+    <h2>Meet Our Founders</h2>
+    <p><strong>Vivek Dohare</strong> – Founder. Proud son of a truck driver, bringing technology and dignity to Indian transport.</p>
+    <p><strong>Nitin Diwakar</strong> – Co-founder. Building tech to transform logistics for Bharat.</p>
+  </section>  <section class="testimonial-section">
+    <h2>What Our Early Users Say</h2>
+    <p>"Bhadanow ka vision sunke laga ki ab asli badlav ayega!" – Raju Bhai, Truck Owner</p>
+    <p>"Suraksha aur izzat dono milegi, ab bhadanow ke sath!" – Anjali, Fleet Manager</p>
+  </section>  <section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h4>Q: Bhadanow app kab launch hoga?</h4>
+      <p>A: Jaldi! Countdown dekho upar.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Q: Bhadanow kin logon ke liye hai?</h4>
+      <p>A: Truck owners, drivers, fleet managers aur logistics professionals ke liye.</p>
+    </div>
+  </section>  <section class="roadmap">
+    <h2>Our Vision & Roadmap</h2>
+    <p>2025: App launch with core features | 2026: Expand to 100+ cities | 2027: Empower 1 lakh+ truckers</p>
+    <div class="stats">
+      <div class="stat">10,000+ Drivers</div>
+      <div class="stat">5L+ KMs Tracked</div>
+      <div class="stat">24x7 Support</div>
+    </div>
+  </section>  <section class="contact">
+    <h2>Stay in Touch</h2>
+    <form>
+      <input type="email" placeholder="Your Email Address">
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </section>  <footer>
+    © 2025 Bhadanow. All rights reserved. | Gwalior, India | support@bhadanow.com
+  </footer>  <script>
+    const countdown = document.getElementById('countdown');
+    const launchDate = new Date("2025-09-01").getTime();
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const diff = launchDate - now;
+      if (diff < 0) {
+        clearInterval(interval);
+        countdown.innerHTML = "We Are Live Now!";
+        return;
+      }
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      countdown.innerHTML = `Launching In: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  </script></body>
+</html><head>
   <title>Bhadanow - India’s Most Trusted Trucking App</title>
   <meta name="description" content="Bhadanow is India’s most trusted trucking app. Bringing dignity, safety & transparency to the trucking industry. Coming soon on Android & iOS.">
   <meta name="keywords" content="Bhadanow, trucking app India, load matching, driver safety, logistics app">
   <meta name="robots" content="index, follow">
   <link rel="icon" href="images/logo.png" type="image/png">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f8fb;
-      color: #222;
-    }
-    .hero {
-      background: linear-gradient(135deg, #004aad, #008bff);
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    .hero img {
-      max-width: 100px;
-      margin-bottom: 20px;
-    }
-    .hero h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
-    .hero button {
-      background: #ffcc00;
-      color: #000;
-      padding: 12px 24px;
-      font-weight: bold;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 25px;
-      padding: 40px 20px;
-      background: white;
-    }
-    .feature {
-      background: #f1f5f9;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .about {
-      padding: 40px 20px;
-      background: #eaf3ff;
-      text-align: center;
-    }
-    .about h4 {
-      margin: 10px 0;
-      color: #004aad;
-    }
-
-    .download {
-      text-align: center;
-      padding: 40px 20px;
-      background: #ffffff;
-    }
-    input[type="email"] {
-      padding: 10px;
-      width: 260px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    button.notify {
-      padding: 10px 20px;
-      background: #0070f3;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      margin-left: 10px;
-    }
-
-    .footer {
-      text-align: center;
-      background: #002244;
-      color: white;
-      padding: 20px;
-      font-size: 14px;
-    }
-  </style>
 </head>
-<body>
-
-  <div class="hero">
-    <img src="images/logo.png" alt="Bhadanow Logo" />
-    <h1>India’s Most Trusted Trucking App – Coming Soon</h1>
-    <p>Safar sirf manzil ka nahi, izzat aur suraksha ka bhi hai.</p>
-    <button>Get Notified When We Launch</button>
-  </div>
-
-  <div class="features">
-    <div class="feature"><h3>Load Matching</h3><p>Smart connections between trucks and loads.</p></div>
-    <div class="feature"><h3>Smart AI Suggestions</h3><p>Recommended loads and routes.</p></div>
-    <div class="feature"><h3>Driver Score</h3><p>Build your reputation and earn better loads.</p></div>
-    <div class="feature"><h3>SOS & Safety Tools</h3><p>Live tracking and emergency support.</p></div>
-    <div class="feature"><h3>Bhai Baat</h3><p>Driver-to-driver chat system.</p></div>
-    <div class="feature"><h3>Instant Wallet</h3><p>Fast and secure payments.</p></div>
-  </div>
-
-  <div class="about">
-    <p>Bhadanow is not just an app. It is a mission to bring dignity, safety, and transparency to India's trucking industry. Inspired by real drivers, built with powerful technology.</p>
-    <h4>Founder: Vivek Dohare</h4>
-    <h4>Co-Founder: Nitin Diwakar</h4>
-  </div>
-
-  <div class="download">
-    <h2>Coming Soon on Android & iOS</h2>
-    <p>
-      <img src="images/logo.png" width="24" /> Play Store &nbsp;&nbsp;
-      <img src="images/logo.png" width="24" /> App Store
-    </p>
-    <input type="email" placeholder="Your email here..." />
-    <button class="notify">Notify Me</button>
-  </div>
-
-  <div class="footer">
-    © 2025 Bhadanow. All rights reserved. | Gwalior, India | support@bhadanow.com
-  </div>
-
-</body>
-</html>
