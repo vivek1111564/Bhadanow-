@@ -1,10 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bhadanow | Register Your Truck & Book Loads</title>
+  <title>Bhadanow | Register & Book</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -47,30 +45,10 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
       margin-bottom: 40px;
     }
-    form {
-      display: grid;
-      gap: 15px;
-    }
-    input, select, button {
-      padding: 12px;
-      font-size: 16px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-    }
-    button {
-      background: #004aad;
-      color: white;
-      font-weight: bold;
+    iframe {
+      display: block;
+      width: 100%;
       border: none;
-      transition: background 0.3s;
-    }
-    button:hover {
-      background: #003366;
-    }
-    .kyc-section {
-      border-top: 1px dashed #ccc;
-      padding-top: 20px;
-      margin-top: 20px;
     }
     footer {
       text-align: center;
@@ -94,60 +72,29 @@
 <section class="section">
   <div class="card">
     <h2>🚛 Truck Owner Registration (with Driver KYC)</h2>
-    <form>
-      <input type="text" placeholder="Owner Full Name" required />
-      <input type="text" placeholder="Mobile Number" required />
-      <input type="text" placeholder="Truck Number" required />
-      <input type="text" placeholder="Truck Type (Mini/Full)" required />
-      <input type="text" placeholder="Route / City of Operation" required />
-
-      <div class="kyc-section">
-        <h3>Driver KYC Details</h3>
-        <input type="text" placeholder="Driver Name" required />
-        <input type="text" placeholder="Driver Mobile Number" required />
-        <input type="text" placeholder="Aadhaar Number" required />
-        <input type="text" placeholder="License Number" required />
-        <input type="file" accept=".jpg,.png,.pdf" title="Upload License or Aadhaar (optional)" />
-      </div>
-
-      <button type="submit">Register Truck</button>
-    </form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLgA8qLRPBu_1G1OYCrkhMk0h2FrwbennYFJcCw5ZFLJOpvQ/viewform?embedded=true" height="1000px">Loading…</iframe>
   </div>
 </section>
 
 <section class="section">
   <div class="card">
     <h2>📦 Customer Load Booking</h2>
-    <form>
-      <input type="text" placeholder="Customer Name" required />
-      <input type="text" placeholder="Pickup Location" required />
-      <input type="text" placeholder="Drop Location" required />
-      <select>
-        <option value="mini">Mini Truck</option>
-        <option value="full">Full Truck</option>
-      </select>
-      <button type="submit">Book Load</button>
-    </form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2wYwBpSXFnSMdyTPcIBFXrX3lKMeIxMLarblhGrkRadQrOA/viewform?embedded=true" height="1000px">Loading…</iframe>
   </div>
 </section>
 
 <section class="section">
   <div class="card">
     <h2>⚡ Mini & Hyper-Local Delivery</h2>
-    <p>Fast, city-based delivery support for kirana stores, startups, and small businesses.</p>
-    <form>
-      <input type="text" placeholder="Business/Store Name" required />
-      <input type="text" placeholder="Pickup Area" required />
-      <input type="text" placeholder="Drop Area" required />
-      <button type="submit">Request Delivery</button>
-    </form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSefJgtBLALNFEuxsHs3k7UKC3Ib6KLiOsjC0MdMCMtlcwpTuQ/viewform?embedded=true" height="1000px">Loading…</iframe>
   </div>
 </section>
 
 <footer>
   © 2025 Bhadanow. Built with pride in India 🇮🇳
 </footer>
-<!-- Premium WhatsApp Booking Section Start -->
+
+<!-- WhatsApp Booking Section -->
 <section style="padding: 40px 20px; max-width: 800px; margin: 0 auto; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); text-align: center; margin-top: 60px;">
   <h2 style="color: #004aad;">🚛 Truck Owner Registration</h2>
   <p style="color: #555;">Register your truck and driver KYC with ease.</p>
@@ -169,6 +116,7 @@
     <button style="padding: 12px 24px; background: #25D366; color: white; border: none; border-radius: 8px; font-size: 16px;">Request via WhatsApp</button>
   </a>
 </section>
-<!-- Premium WhatsApp Booking Section End -->
+<!-- WhatsApp Booking Section End -->
+
 </body>
 </html>
